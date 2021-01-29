@@ -1,4 +1,4 @@
-FROM alpine:3.12
+FROM alpine:3.13
 RUN \
     apk add --no-cache python3 && \
     install -d -m 0755 -o nobody -g nobody /sqlmap /.local && \
