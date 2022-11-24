@@ -8,6 +8,9 @@ on:
       - README.md
   workflow_dispatch:
 
+permissions:
+  contents: read
+
 jobs:
   update-description:
     runs-on: ubuntu-latest
